@@ -10,7 +10,9 @@ module.exports = {
          minHeight: {
             90: '90vh',
          },
-
+         zIndex: {
+            highest: 9999,
+         },
          fontFamily: {
             bigShoulders: ['"Big Shoulders Display"', 'cursive'],
             outfit: ['"Outfit"', 'sans-serif'],

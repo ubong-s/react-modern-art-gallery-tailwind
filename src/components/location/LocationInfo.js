@@ -1,14 +1,16 @@
-import React from 'react';
-
 const LocationInfo = () => {
    return (
-      <div className='bg-themeDarker text-white py-12 md:py-20'>
-         <div className='wrapper md:grid md:grid-cols-5 md:gap-12'>
-            <h2 className='uppercase mb-8 text-5xl lg:text-6xl col-span-2'>
-               Our Location
+      <div className='bg-themeDarker text-white py-12 md:py-20 lg:py-24'>
+         <div className='wrapper md:grid md:grid-cols-5 md:gap-12 lg:gap-32'>
+            <h2 className='uppercase mb-8 text-5xl md:text-6xl lg:text-7xl col-span-2'>
+               Our{' '}
+               <span className='hidden md:inline-block'>
+                  <br />
+               </span>{' '}
+               Location
             </h2>
             <div className='col-span-3'>
-               <h3 className='uppercase text-3xl mb-4 text-themeOrange'>
+               <h3 className='uppercase text-3xl mb-4 text-themeOrange lg:text-4xl'>
                   99 King Street
                </h3>
                <p className='mb-4'>

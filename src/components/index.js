@@ -5,5 +5,15 @@ import Map from './location/Map';
 import LocationInfo from './location/LocationInfo';
 import Footer from './shared/Footer';
 import HelmetSeo from './shared/HelmetSEO';
+import Button from './shared/Button';
 
-export { Hero, YourDay, BeInspired, Map, LocationInfo, Footer, HelmetSeo };
+export {
+   Hero,
+   YourDay,
+   BeInspired,
+   Map,
+   LocationInfo,
+   Footer,
+   HelmetSeo,
+   Button,
+};
