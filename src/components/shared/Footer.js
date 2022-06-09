@@ -9,7 +9,7 @@ const Footer = () => {
             location.pathname === '/location'
                ? 'bg-themeOrange text-themeDarker'
                : 'bg-themeDarker text-white'
-         }  py-12 md:py-14 lg:py-24`}
+         }  py-12 px-4 md:py-14 md:px-0 lg:py-24`}
       >
          <div className='wrapper md:grid md:grid-cols-7 md:gap-2'>
             <Link

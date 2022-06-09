@@ -5,11 +5,15 @@
 @tailwind utilities;
 
 body {
-   @apply font-outfit font-light leading-6;
+   @apply font-outfit font-light leading-7;
 }
 
 main {
    @apply min-h-90 lg:text-lg;
+}
+
+img {
+   @apply w-full;
 }
 
 h1,
@@ -22,7 +26,7 @@ h6 {
 }
 
 .wrapper {
-   width: 85%;
+   width: 90%;
    max-width: 1440px;
    margin: auto;
 }
