@@ -5,13 +5,12 @@ import { Footer } from './components';
 function App() {
    return (
       <Router>
-         <main>
-            <Routes>
-               <Route exact path='/' element={<Home />} />
-               <Route exact path='/location' element={<Location />} />
-               <Route path='*' element={<NotFound />} />
-            </Routes>
-         </main>
+         <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/location' element={<Location />} />
+            <Route path='*' element={<NotFound />} />
+         </Routes>
+
          <Footer />
       </Router>
    );

@@ -52,3 +52,33 @@ h6 {
    border: transparent;
    transform: translate3d(631px, 312px, 0px) scale(0.75) !important;
 }
+
+.leaflet-popup-content {
+   font-family: 'Outfit';
+   font-size: 16px;
+   text-align: center;
+}
+
+.btn {
+   @apply border-0 uppercase font-bigShoulders font-black tracking-widest text-xl flex items-stretch text-white bg-themeDarker hover:bg-themeOrange hover:text-themeDarker transition-all ease-in-out;
+}
+
+.btn .icon {
+   @apply bg-themeOrange w-14 flex items-center justify-center transition-all ease-in-out;
+}
+
+.btn:hover .icon {
+   @apply bg-themeDarker w-14 flex items-center justify-center;
+}
+
+.social {
+   @apply flex gap-6 md:col-span-2 md:justify-end;
+}
+
+.social a:hover svg {
+   @apply text-themeOrange transition-colors ease-in-out;
+}
+
+.social-alt a:hover svg {
+   @apply text-white transition-colors ease-in-out;
+}

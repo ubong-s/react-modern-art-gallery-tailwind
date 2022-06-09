@@ -2,7 +2,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
    const location = useLocation();
-   console.log(location);
    return (
       <div
          className={`${
@@ -24,7 +23,13 @@ const Footer = () => {
                days a week from 8am to 9pm. Find us at 99 King Street, Newport,
                USA.
             </p>
-            <div className='flex gap-6 md:col-span-2 md:justify-end'>
+            <div
+               className={
+                  location.pathname === '/location'
+                     ? 'social social-alt'
+                     : 'social'
+               }
+            >
                <a
                   href='https://www.facebook.com'
                   target='_blank'
