@@ -1,6 +1,6 @@
 import Leaflet from 'leaflet';
 import { useState } from 'react';
-import { MapContainer, TileLayer, useMap, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Link } from 'react-router-dom';
 import Button from '../shared/Button';
 
@@ -17,6 +17,7 @@ const customIcon = new Leaflet.Icon({
 });
 
 const Map = () => {
+   // eslint-disable-next-line
    const [position, setPosition] = useState([
       41.481526583600406, -71.31041024120394,
    ]);
