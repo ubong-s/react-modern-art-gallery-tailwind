@@ -2,7 +2,7 @@ import React from 'react';
 
 const YourDay = () => {
    return (
-      <div className='wrapper pb-4 grid  gap-4 md:gap-12 lg:gap-40 md:items-center md:grid-cols-5 md:grid-rows-1 lg:pb-6'>
+      <div className='wrapper pb-4 grid  gap-4 md:gap-12 lg:gap-40 md:items-center md:grid-cols-5 md:grid-rows-1 lg:pb-6 pt-32 lg:pt-44'>
          <div className='md:col-start-3 md:col-end-6 bg-red-400'>
             <img
                src='/images/mobile/image-grid-1.jpg'

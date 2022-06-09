@@ -17,6 +17,9 @@ module.exports = {
             bigShoulders: ['"Big Shoulders Display"', 'cursive'],
             outfit: ['"Outfit"', 'sans-serif'],
          },
+         fontSize: {
+            '7.5xl': ['5rem', { lineHeight: '1' }],
+         },
       },
    },
    plugins: [],
